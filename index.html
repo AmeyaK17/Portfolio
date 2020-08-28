@@ -11,7 +11,18 @@
     
     <title>Ameya's Portfolio</title>
 </head>
-<body>
+<body onload="hideLoading();">
+    <!-- Loading -->
+    <div class="loading" id="loading">
+        <div class="spinner_box">
+            <div class="pulse_container">
+                <div class="pulse_bubble pulse_bubble-1"></div>
+                <div class="pulse_bubble pulse_bubble-2"></div>
+                <div class="pulse_bubble pulse_bubble-3"></div>
+            </div>
+        </div>
+    </div>
+    
     <!-- Header -->
     <header class="l-header">
         <nav class="nav bd-grid">
@@ -40,7 +51,7 @@
         <!-- HOME -->
         <section class="home bd-grid" id="home">
             <div class="home_data">
-                <h1 class="home_title">Hi, <br>I'm <span class="home_title-color">Ameya</span><br>CSE student</h1>
+                <h1 class="home_title">Hello, <br>I'm <span class="home_title-color">Ameya 👻</span><br><span class="home_title-small">I am a CSE student looking for an internship or a job</span></h1>
                 <a href="#" class="button">Contact</a>
             </div>
 

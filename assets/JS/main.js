@@ -1,3 +1,9 @@
+/* Loading */
+function hideLoading(){
+    document.getElementById('loading').style.opacity = '0'
+    document.getElementById('loading').style.zIndex = '-1'
+}
+
 /* MENU SHOW */
 const showMenu = (toggleId, navId) => {
     const toggle = document.getElementById(toggleId),
