@@ -368,9 +368,7 @@ img {
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 0.5rem;
     cursor: pointer;
-    /*backdrop-filter: blur(10px);*/
-    -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
-    filter: blur(5px);
+    backdrop-filter: blur(10px);
     transition: 0.3s;
 }
 .project_img:hover .project_link{
