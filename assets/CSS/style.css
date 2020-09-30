@@ -366,10 +366,10 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.7);
     border-radius: 0.5rem;
     cursor: pointer;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(3px);
     transition: 0.3s;
 }
 .project_img:hover .project_link{
@@ -405,7 +405,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(0, 0, 0, 0.7);
     border-radius: 0.5rem;
     cursor: pointer;
     backdrop-filter: blur(3px);
@@ -416,7 +416,7 @@ img {
     /*display: flex;*/
 }
 .research_link-name{
-    color: var(--second-color);
+    color: var(--white-color);
 }
 
 /* Contact */
